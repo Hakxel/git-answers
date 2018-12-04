@@ -1,0 +1,10 @@
+-Use echo to create a new file in the current working directory named hello_world.txt containing the string Hello, world.
+-Use cat to output the contents of the file hello_world.txt in the current working directory. 
+-In the same line of code the output of cat should be redirected into a new file named hello_copy.txt using a character for redirection of output. 
+
+echo "Hello, world." > hello_world.txt
+cat hello_world.txt > hello_copy.txt
+
+-Submit a code sample that outputs “Sam” 3 times, each on a new line.
+
+3.times { puts "Sam" }
